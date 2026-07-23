@@ -21,12 +21,12 @@ This module does not include or modify the game APK. It only bypasses the GMS av
 
 For debug builds:
 ```bash
-./gradlew assembleDebug
+bash gradlew assembleDebug
 ```
 
 For release builds:
 ```bash
-./gradlew assembleRelease
+bash gradlew assembleRelease
 ```
 
 The output APK will be under `app/build/outputs/apk/release/` for a **release** build, and `app/build/outputs/apk/debug/` for a **debug** build.
